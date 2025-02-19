@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-style: 35px;
+}
+
+.parent {
+    color: red;
+
+    .child {
+        color: green;
+
+        span {
+            color: pink;
+        }
+    }
+
+    .parent-child {
+        color: grey;
+    }
+
+
+}
